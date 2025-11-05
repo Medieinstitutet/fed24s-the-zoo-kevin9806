@@ -71,7 +71,7 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: IG**
-📌 **Motivering:** Tekniskt fel vid AI-analys. Kontrollera manuellt.
+📌 **Motivering:** Flertalet av kraven som specificerats i uppgiften såsom korrekt routernavigering, användning av context, samt djurmatningslogik synliggörs inte i de tillgängliga filerna. Heltäckande betygskriterier för G eller VG inte uppfyllda.
 
 💡 **Förbättringsförslag:**  
-Automatisk rättning med AI-assistant misslyckades. Vänligen kontrollera koden manuellt.
+Bör säkerställa att routing och sid.structure är implementerat och fylligt dokumenterat i App.tsx. Matning av djur och deras tillstånd, samt deras visualisering bör tydliggöras inklusive användning av mer avancerade styling tekniker.
