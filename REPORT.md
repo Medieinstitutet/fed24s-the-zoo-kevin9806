@@ -71,7 +71,7 @@ Ha roligt, skratta och lär er massor!
 
 
 ## 🏆 **Betyg: IG**
-📌 **Motivering:** Flertalet av kraven som specificerats i uppgiften såsom korrekt routernavigering, användning av context, samt djurmatningslogik synliggörs inte i de tillgängliga filerna. Heltäckande betygskriterier för G eller VG inte uppfyllda.
+📌 **Motivering:** Projektet brister i flera av de grundläggande kraven såsom router-implementering, djur-sidor, mata-funktionalitet, och val av alternativ CSS-styling. Ingen information finns om datahantering eller användning av Context API och Reducers.
 
 💡 **Förbättringsförslag:**  
-Bör säkerställa att routing och sid.structure är implementerat och fylligt dokumenterat i App.tsx. Matning av djur och deras tillstånd, samt deras visualisering bör tydliggöras inklusive användning av mer avancerade styling tekniker.
+Projektet bör inkludera routing och siduppdelning för att hantera olika vyer av djur, inklusive hantering av trasiga bilder. Implementera funktionalitet för att mata djur och spara dessa tider. Använd Context API och reducers för state management samt inkludera animeringar och en bättre visuell presentation av djurens status.
