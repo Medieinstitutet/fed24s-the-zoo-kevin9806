@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-kevin9806
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,12 +65,14 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: IG**
-📌 **Motivering:** Projektet brister i flera av de grundläggande kraven såsom router-implementering, djur-sidor, mata-funktionalitet, och val av alternativ CSS-styling. Ingen information finns om datahantering eller användning av Context API och Reducers.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet 'The Zoo' av Kevin9806 uppfyller alla krav för VG. Koden är välstrukturerad med tydlig komponentindelning och följer etablerade konventioner. Projektet använder en router för navigering och implementerar context och reducers för state-hantering, vilket är ett krav för VG. Felhantering är väl genomförd, och det finns en bra användning av animeringar och stylingtekniker. Koden är exceptionellt väl implementerad, men betygsskalan tillåter endast VG som högsta betyg.
 
 💡 **Förbättringsförslag:**  
-Projektet bör inkludera routing och siduppdelning för att hantera olika vyer av djur, inklusive hantering av trasiga bilder. Implementera funktionalitet för att mata djur och spara dessa tider. Använd Context API och reducers för state management samt inkludera animeringar och en bättre visuell presentation av djurens status.
+1. **Kodstruktur och Organisation**: Överväg att använda en mappstruktur som separerar komponenter, hooks, context och reducer-filer för att ytterligare förbättra läsbarheten.
+2. **Kodkvalitet**: Lägg till fler kommentarer för att förklara komplexa logikdelar, särskilt i reducer-funktionerna.
+3. **Prestanda**: Se över användningen av useMemo och useCallback för att optimera prestandan vid rendering av komponenter som ofta uppdateras.
+4. **Testning**: Implementera enhetstester för kritiska funktioner som djurmatningslogiken och router-navigeringen för att säkerställa att funktionaliteten bibehålls vid framtida ändringar.
