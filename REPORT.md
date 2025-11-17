@@ -68,11 +68,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet 'The Zoo' av Kevin9806 uppfyller alla krav för VG. Koden är välstrukturerad med tydlig komponentindelning och följer etablerade konventioner. Projektet använder en router för navigering och implementerar context och reducers för state-hantering, vilket är ett krav för VG. Felhantering är väl genomförd, och det finns en bra användning av animeringar och stylingtekniker. Koden är exceptionellt väl implementerad, men betygsskalan tillåter endast VG som högsta betyg.
+## 🏆 **Betyg: IG**
+📌 **Motivering:** Projektet uppfyller inte de grundläggande kraven för betyg G. Det saknas implementation av routing, djuröversiktssida, djurdetaljsida och funktionalitet för att mata djur samt hantera trasiga bildlänkar. Dessutom används ingen annan stylingteknik än ren CSS, vilket är ett krav. Dessa brister är kritiska och måste åtgärdas för att uppnå betyg G.
 
 💡 **Förbättringsförslag:**  
-1. **Kodstruktur och Organisation**: Överväg att använda en mappstruktur som separerar komponenter, hooks, context och reducer-filer för att ytterligare förbättra läsbarheten.
-2. **Kodkvalitet**: Lägg till fler kommentarer för att förklara komplexa logikdelar, särskilt i reducer-funktionerna.
-3. **Prestanda**: Se över användningen av useMemo och useCallback för att optimera prestandan vid rendering av komponenter som ofta uppdateras.
-4. **Testning**: Implementera enhetstester för kritiska funktioner som djurmatningslogiken och router-navigeringen för att säkerställa att funktionaliteten bibehålls vid framtida ändringar.
+För att uppfylla kraven för betyg G, bör studenten implementera en router för att hantera olika sidor i applikationen, inklusive en översiktssida för djuren och en detaljsida för varje djur. Funktionalitet för att mata djur och hantera trasiga bildlänkar behöver också implementeras. Användning av en annan stylingteknik än ren CSS, såsom Tailwind eller Material UI, är nödvändig. För att nå VG bör studenten även använda context för komponentkommunikation, reducers för state-hantering, och implementera subtila animeringar vid interaktioner.
